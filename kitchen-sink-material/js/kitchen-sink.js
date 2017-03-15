@@ -382,7 +382,7 @@ myApp.onPageInit('notifications', function (page) {
     $$('.ks-notification-3').on('click', function () {
         myApp.addNotification({
              media: '<img width="44" height="44" style="border-radius:100%" src="https://image.ibb.co/hTAwOv/buddyinmind.png">',
-            message: 'Katie might use a friendly voice now, would you like to call her?',
+            message: 'Katie might need a friend right now, would you like to call her?',
             button: {
                 text: 'Call Katie',
                 color: 'green'
