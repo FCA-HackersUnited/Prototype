@@ -391,20 +391,24 @@ myApp.onPageInit('notifications', function (page) {
     });
     $$('.ks-notification-3').on('click', function () {
         myApp.addNotification({
-            message: 'Nice yellow button',
+             media: '<img width="44" height="44" style="border-radius:100%" src="https://image.ibb.co/hTAwOv/buddyinmind.png">',
+            message: 'Katie might use a friendly voice now, would you like to call her?',
             button: {
-                text: 'Click me',
-                color: 'yellow'
-            }
+                text: 'Call Katie',
+                color: 'green'
+            },
+            closeIcon: true
         });
     });
     $$('.ks-notification-4').on('click', function () {
         myApp.addNotification({
+           
             message: 'Close me to see Alert',
             button: {
                 text: 'Close',
                 color: 'lightgreen'
             },
+            
             onClose: function () {
                 myApp.alert('Notification closed');
             }
