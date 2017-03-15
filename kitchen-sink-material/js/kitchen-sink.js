@@ -175,13 +175,10 @@ myApp.onPageInit('messages', function (page) {
     ];
     var people = [
         {
-            name: 'Kate Johnson',
-            avatar: 'http://lorempixel.com/output/people-q-c-100-100-9.jpg'
+            name: 'Bot',
+            avatar: 'https://image.ibb.co/hTAwOv/buddyinmind.png'
         },
-        {
-            name: 'Blue Ninja',
-            avatar: 'http://lorempixel.com/output/people-q-c-100-100-7.jpg'
-        },
+
 
     ];
     var answerTimeout, isFocused;
@@ -211,7 +208,7 @@ myApp.onPageInit('messages', function (page) {
         // Add Message
         myMessages.addMessage({
             text: messageText,
-            avatar: 'http://lorempixel.com/output/people-q-c-200-200-6.jpg',
+            avatar: 'http://lorempixel.com/output/people-q-c-200-200-9.jpg',
             type: 'sent',
             date: 'Now'
         });
