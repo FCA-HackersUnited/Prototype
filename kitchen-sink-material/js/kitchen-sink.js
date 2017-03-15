@@ -170,18 +170,8 @@ myApp.onPageInit('swipe-delete modals media-lists', function (page) {
 myApp.onPageInit('messages', function (page) {
     var conversationStarted = false;
     var answers = [
-        'Yes!',
-        'No',
-        'Hm...',
-        'I am not sure',
-        'And what about you?',
-        'May be ;)',
-        'Lorem ipsum dolor sit amet, consectetur',
-        'What?',
-        'Are you sure?',
-        'Of course',
-        'Need to think about it',
-        'Amazing!!!',
+        'What\'s wrong?',
+
     ];
     var people = [
         {
